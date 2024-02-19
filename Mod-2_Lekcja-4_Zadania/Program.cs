@@ -22,11 +22,11 @@ Console.WriteLine($"{z}, {y}, {x}");
 // Zadanie 3
 
 Console.Write("Please give me length of sides of the rectangle (a,b) \r\na= ");
-double a2 = double.Parse(Console.ReadLine());
+double side_A = double.Parse(Console.ReadLine());
 Console.Write("b= ");
-double b2 = double.Parse(Console.ReadLine());
-
-Console.WriteLine(Math.Round(Math.Sqrt(Math.Pow(a2, 2) + Math.Pow(b2, 2)), 2));
+double side_B = double.Parse(Console.ReadLine());
+double diagonal = Math.Round(Math.Sqrt(Math.Pow(side_A, 2) + Math.Pow(side_B, 2)), 2);
+Console.WriteLine($"Length of diagonal = {diagonal}");
 
 // Zadanie 4
 
