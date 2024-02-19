@@ -22,8 +22,14 @@ Console.WriteLine($"{z}, {y}, {x}");
 // Zadanie 3
 
 Console.Write("Please give me length of sides of the rectangle (a,b) \r\na= ");
-double a = double.Parse(Console.ReadLine());
+double a2 = double.Parse(Console.ReadLine());
 Console.Write("b= ");
-double b = double.Parse(Console.ReadLine());
+double b2 = double.Parse(Console.ReadLine());
 
-Console.WriteLine(Math.Round(Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2)), 2));
+Console.WriteLine(Math.Round(Math.Sqrt(Math.Pow(a2, 2) + Math.Pow(b2, 2)), 2));
+
+// Zadanie 4
+
+int a4=10;
+string b4="Szkoła Dotneta";
+double c4 = 10.5; 
