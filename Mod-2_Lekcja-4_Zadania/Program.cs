@@ -5,7 +5,7 @@ string fName = Console.ReadLine();
 Console.WriteLine("Your Last Name is ? ");
 string LastName = Console.ReadLine();
 Console.WriteLine("your Age is ?");
-string Age = Console.ReadLine();
+int Age = int.Parse(Console.ReadLine());
 Console.WriteLine("Your sex is (m/w)?");
 char sex = char.Parse(Console.ReadLine());
 Console.WriteLine("Your PESEL number is?");
