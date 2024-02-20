@@ -9,7 +9,7 @@ string Age = Console.ReadLine();
 Console.WriteLine("Your sex is (m/w)?");
 char sex = char.Parse(Console.ReadLine());
 Console.WriteLine("Your PESEL number is?");
-long PESEL = long.Parse(Console.ReadLine());
+string PESEL = (Console.ReadLine());
 Console.WriteLine("Your personal worker number is ?");
 int PWN = int.Parse(Console.ReadLine()); //PWN === Personal Worker No
 
