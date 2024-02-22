@@ -3,11 +3,11 @@
 Console.WriteLine("Please give me your First Name: ");
 string fName = Console.ReadLine();
 Console.WriteLine("Your Last Name is ? ");
-string LastName = Console.ReadLine();
+string lastName = Console.ReadLine();
 Console.WriteLine("your Age is ?");
-byte Age = byte.Parse(Console.ReadLine());
+byte age = byte.Parse(Console.ReadLine());
 Console.WriteLine("Your sex is (m/w)?");
-char Sex = char.Parse(Console.ReadLine());
+char sex = char.Parse(Console.ReadLine());
 Console.WriteLine("Your PESEL number is?");
 string PESEL = Console.ReadLine();
 Console.WriteLine("Your personal employee number is ?");
@@ -22,10 +22,10 @@ Console.WriteLine($"{z}, {y}, {x}");
 // Zadanie 3
 
 Console.Write("Please give me length of sides of the rectangle (a,b) \r\na= ");
-double side_A = double.Parse(Console.ReadLine());
+double sideA = double.Parse(Console.ReadLine());
 Console.Write("b= ");
-double side_B = double.Parse(Console.ReadLine());
-double diagonal = Math.Round(Math.Sqrt(Math.Pow(side_A, 2) + Math.Pow(side_B, 2)), 2);
+double sideB = double.Parse(Console.ReadLine());
+double diagonal = Math.Round(Math.Sqrt(Math.Pow(sideA, 2) + Math.Pow(sideB, 2)), 2);
 Console.WriteLine($"Length of diagonal = {diagonal}");
 
 // Zadanie 4
