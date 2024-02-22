@@ -9,9 +9,9 @@ byte age = byte.Parse(Console.ReadLine());
 Console.WriteLine("Your sex is (m/w)?");
 char sex = char.Parse(Console.ReadLine());
 Console.WriteLine("Your PESEL number is?");
-string PESEL = Console.ReadLine();
+string pesel = Console.ReadLine();
 Console.WriteLine("Your personal employee number is ?");
-string PEN = Console.ReadLine(); //PEN === Personal Employee No
+string pen = Console.ReadLine(); //PEN === Personal Employee No
 
 // Zadanie 2
 
